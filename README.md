@@ -7,7 +7,7 @@
 Start Time : 2016-08-30 20:52:23
 
 | 时间 | 文章 |
-|:--:|:--:|
+|:--:|:--|
 |2016-08-30|[闭包](https://github.com/zhongxia245/One-Day-One-Tip/issues/1)|
 |2016-08-31|[构造函数继承的几种实现方式](https://github.com/zhongxia245/One-Day-One-Tip/issues/2)|
 
