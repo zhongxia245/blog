@@ -1,2 +1,7 @@
 # One-Day-One-Tip
-> One Day One Tip To Study JavaScript , CSS, HTML and other knowledge ！
+> 每天一个知识点，可能是一个小小的技巧，心得，或者感悟、 也可能是一个一篇优秀文章的转载。
+
+#### **不一定每篇都还自己总结，自己一字一字的敲出来，但是最少要保证自己理解了， 学习到了**
+
+---
+Start Time : 2016-08-30 20:52:23
