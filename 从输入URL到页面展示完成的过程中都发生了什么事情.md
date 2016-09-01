@@ -1,0 +1,48 @@
+## 从输入URL到页面展示完成的过程中都发生了什么事情？
+>时间：2016-09-01 23:25:04
+
+>这是一道经典的面试题，没有明确的答案，因为往某个方面深入讲解下去，都可以说好多好多。当然面试不同的岗位，可以侧重讲不同的方面。
+
+>***这里挖一个大坑，后期慢慢补上。***
+
+
+## 分为三个方向 
+1. #### 前端
+    - http相关知识
+    - 页面渲染
+    - 页面加载优化
+    - web安全
+    - nginx负载均衡
+    - CDN
+    - HTTP2
+    - HTTPS证书校验
+
+
+2. #### 后端
+    - web服务器相关知识（Apache/IIS/Nginx/Tomcat）
+    - 接收各种协议的网络请求以及相关的各种类型参数的接收
+    - MVC架构，开发，优化等
+    - 数据库知识，数据库优化
+    - 响应给客户端浏览器（JSON，XML，流等）
+
+
+3. #### 网络通讯
+    - DNS查询原理
+    - OSI七层模型【每一层网络协议，路由原理】
+    - TCP/IP四层网络模型
+    - TCP三次握手，握手失败处理等
+    - 拥塞避免
+    - 滑动窗口
+    - IP地址划分
+    - 协议安全
+    - 网络拓扑结构，总线型，树状结构，网状，分布式等
+
+
+## 参考文章
+>有一些是移动端页面的文章
+
+1. [从输入URL到页面加载完成的过程中都发生了什么事情？](https://segmentfault.com/q/1010000000489803)
+2. [从输入URL到浏览器显示页面发生了什么](http://m.baidu.com/from=844b/bd_page_type=1/ssid=0/uid=0/pu=usm%400%2Csz%401320_1001%2Cta%40iphone_2_5.1_3_537/baiduid=C926057DBCA34904D41EF2A33BD425B9/w=0_10_%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BE%93%E5%85%A5url%2C%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88/t=iphone/l=3/tc?ref=www_iphone&lid=3705095590918409798&order=3&fm=alop&tj=www_normal_3_0_10_title&vit=osres&m=8&srd=1&cltj=cloud_title&asres=1&title=%E4%BB%8E%E8%BE%93%E5%85%A5URL%E5%88%B0%E6%B5%8F%E8%A7%88%E5%99%A8%E6%98%BE%E7%A4%BA%E9%A1%B5%E9%9D%A2%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88-%E9%98%BF%E5%AD%94-%E5%8D%9A%E5%AE%A2%E5%9B%AD&dict=30&sec=14881&di=70c21b17b1fc732e&bdenc=1&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_ytK1DK6mlrte4viZQRAWTz6N734ZpPPtCPQpxkHwXGd0WAskNYWgK)
+3. [浏览器中输入url后发生了什么](http://www.jianshu.com/p/c1dfc6caa520)
+4. [从输入网址到显示网页的全过程分析](http://m.blog.csdn.net/article/details?id=8789624)
+5. [从输入 URL 到页面加载完的过程中都发生了什么事情？](http://www.guokr.com/question/554991/)
