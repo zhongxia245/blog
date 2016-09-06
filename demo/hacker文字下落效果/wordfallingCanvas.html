@@ -1,51 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- CSS START -->
+<style type="text/css">
+body {
+  padding: 0;
+  margin: 0;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <style type="text/css">
-  /*CSS源代码*/
-  
-  body {
-    padding: 0;
-    margin: 0;
-  }
-  
-  canvas {
-    display: block;
-  }
-  </style>
-</head>
-
-<body>
-  <!-- HTML代码片段中请勿添加<body>标签 //-->
-  <canvas id="c"></canvas>
-  <!-- 推荐开源CDN来选取需引用的外部JS //-->
-  <script type="text/javascript" src="http://cdn.staticfile.org/jquery-once/2.1.1/jquery.once.min.js"></script>
-  <script type="text/javascript">
-  /*Javascript代码片段*/
-  var c = document.getElementById("c");
+canvas {
+  display: block;
+}
+</style>
+<!-- CSS END -->
+<!-- HTML START -->
+<canvas id="canvas"></canvas>
+<!-- HTML END -->
+<!-- JAVASCRIPT START -->
+<script type="text/javascript">
+(function() {
+  var c = document.getElementById("canvas");
   var ctx = c.getContext("2d");
 
   //全屏
   c.height = window.innerHeight;
   c.width = window.innerWidth;
 
-  //文字
+  //下落文字
   var txts = "0123456789abcdefghijklmnopqrstuvwsyz";
+
   //转为数组
   txts = txts.split("");
 
   var font_size = 16;
-  var columns = c.width / font_size;
+
   //用于计算输出文字时坐标，所以长度即为列数
-  var drops = [];
+  var columns = c.width / font_size;
+
   //初始值
+  var drops = [];
+
+  //输出文字
   for (var x = 0; x < columns; x++)
     drops[x] = 1;
 
-  //输出文字
   function draw() {
     //让背景逐渐由透明到不透明
     ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
@@ -70,7 +65,6 @@
   }
 
   setInterval(draw, 33);
-  </script>
-</body>
-
-</html>
+})()
+</script>
+<!-- JAVASCRIPT END -->
