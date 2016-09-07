@@ -1,0 +1,187 @@
+<style type="text/css">
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #e9f1ed;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  position: relative;
+  z-index: 99;
+}
+
+.drop {
+  position: absolute;
+  top: -1em;
+  left: -1em;
+  font-size: 2em;
+  background: red;
+  height: 2em;
+  width: 2em;
+  display: block;
+  border-radius: 5em 0.5em 3em 3em/3em 0.5em 5em 3em;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 0;
+}
+
+.drop:nth-of-type(1) {
+  background-color: rgb(95, 164, 34);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.spinning:nth-of-type(1) {
+  -webkit-animation: spin-out 2s 0.16667s linear 1;
+  animation: spin-out 2s 0.16667s linear 1;
+}
+
+.drop:nth-of-type(2) {
+  background-color: rgb(252, 196, 0);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.spinning:nth-of-type(2) {
+  -webkit-animation: spin-out 2s 0.33333s linear 1;
+  animation: spin-out 2s 0.33333s linear 1;
+}
+
+.drop:nth-of-type(3) {
+  background-color: rgb(108, 192, 208);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.spinning:nth-of-type(3) {
+  -webkit-animation: spin-out 2s 0.5s linear 1;
+  animation: spin-out 2s 0.5s linear 1;
+}
+
+.drop:nth-of-type(4) {
+  background-color: rgb(230, 102, 148);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.spinning:nth-of-type(4) {
+  -webkit-animation: spin-out 2s 0.66667s linear 1;
+  animation: spin-out 2s 0.66667s linear 1;
+}
+
+.drop:nth-of-type(5) {
+  background-color: rgb(226, 54, 46);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.spinning:nth-of-type(5) {
+  -webkit-animation: spin-out 2s 0.83333s linear 1;
+  animation: spin-out 2s 0.83333s linear 1;
+}
+
+.drop:nth-of-type(6) {
+  background-color: rgb(31, 125, 154);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.spinning:nth-of-type(6) {
+  -webkit-animation: spin-out 2s 1s linear 1;
+  animation: spin-out 2s 1s linear 1;
+}
+
+.loading {
+  position: absolute;
+  font-family: sans-serif;
+  color: #6ca287;
+  margin-top: 5.8em;
+}
+
+@-webkit-keyframes spin-out {
+  from {
+    -webkit-transform: rotate(0deg) translateY(-50%);
+    transform: rotate(0deg) translateY(-50%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.25;
+  }
+  90% {
+    opacity: 0.25;
+  }
+  100% {
+    -webkit-transform: rotate(719.999deg) translateY(-50%);
+    transform: rotate(719.999deg) translateY(-50%);
+    opacity: 0;
+  }
+}
+
+@keyframes spin-out {
+  from {
+    -webkit-transform: rotate(0deg) translateY(-50%);
+    transform: rotate(0deg) translateY(-50%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.25;
+  }
+  90% {
+    opacity: 0.25;
+  }
+  100% {
+    -webkit-transform: rotate(719.999deg) translateY(-50%);
+    transform: rotate(719.999deg) translateY(-50%);
+    opacity: 0;
+  }
+}
+</style>
+<div class="wrapper">
+  <div class="drop spinning"></div>
+  <div class="drop spinning"></div>
+  <div class="drop spinning"></div>
+  <div class="drop spinning"></div>
+  <div class="drop spinning"></div>
+  <div class="drop spinning"></div>
+</div>
+<div class="loading">loading</div>
+<script type="text/javascript">
+(function() {
+  'use strict';
+
+  var drops = document.querySelectorAll('.drop'),
+    loadButton = document.getElementById('load'),
+    doTheClassThing = function() {
+      [].forEach.call(drops, function(el, ind) {
+        if (el.classList.contains('spinning')) {
+          el.classList.remove('spinning');
+        } else {
+          el.classList.add('spinning');
+        }
+      })
+    };
+
+  setInterval(doTheClassThing, 3000);
+
+})()
+</script>
