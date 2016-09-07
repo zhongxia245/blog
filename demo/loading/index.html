@@ -1,5 +1,74 @@
 <style type="text/css">
+/*
+ SASS代码
+$drop-size: 2em
+
+$colors: '95,164,34','252,196,0','108,192,208','230,102,148','226,54,46','31,125,154'
+
+$transOfst: -50%
+
+body
+  display: flex
+  justify-content: center
+  align-items: center
+  background: rgb(233,241,237)
+
+body, html
+  height: 100%
+  width: 100%
+  overflow: hidden
+
+.wrapper
+  display: inline-block
+  width: 0
+  height: 0
+  position: relative
+  z-index: 99
+  
+.drop
+  position: absolute
+  top: -$drop-size / 2
+  left: -$drop-size / 2
+  font-size: $drop-size
+  background: red
+  height: $drop-size
+  width: $drop-size
+  display: block
+  border-radius:  5em 0.5em 3em 3em / 3em 0.5em 5em 3em
+  transform-origin: center
+  opacity: 0
+  
+
+@for $i from 1 through 6
+  $this-color: nth($colors, $i)
+  .drop:nth-of-type(#{$i})
+    background-color: unquote('rgb(#{$this-color})')
+    // might be time to have a look at sass again
+    transform: translateY($transOfst)
+  .spinning:nth-of-type(#{$i})
+    animation: spin-out 2s unquote('#{$i * (1/6)}s') linear 1
+
+.loading
+  position: absolute
+  font-family: sans-serif
+  color: darken(rgb(233,241,237), 40%)
+  margin-top: $drop-size * 2.9
+
+@keyframes spin-out
+  from
+    transform: rotate(0deg) translateY($transOfst)
+    opacity: 0
+  10%
+    opacity: 0.25
+  90%
+    opacity: 0.25
+  100%
+    transform: rotate(719.999deg) translateY($transOfst)
+    opacity: 0
+
+ */
 body {
+  /*垂直水平居中*/
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -119,7 +188,7 @@ html {
 }
 
 @-webkit-keyframes spin-out {
-  from {
+  0% {
     -webkit-transform: rotate(0deg) translateY(-50%);
     transform: rotate(0deg) translateY(-50%);
     opacity: 0;
@@ -138,7 +207,7 @@ html {
 }
 
 @keyframes spin-out {
-  from {
+  0% {
     -webkit-transform: rotate(0deg) translateY(-50%);
     transform: rotate(0deg) translateY(-50%);
     opacity: 0;
