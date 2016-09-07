@@ -23,5 +23,9 @@ Start Time : 2016-08-30 20:52:23
 
 ![](https://github.com/zhongxia245/One-Day-One-Tip/blob/master/demo/hacker%E6%96%87%E5%AD%97%E4%B8%8B%E8%90%BD%E6%95%88%E6%9E%9C/demo.gif?raw=true)
 
+2. loading效果
+
+![](https://github.com/zhongxia245/One-Day-One-Tip/blob/master/demo/loading/loading.gif?raw=true)
+
 
 
