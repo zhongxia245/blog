@@ -9,7 +9,7 @@ Start Time : 2016-08-30 20:52:23
 ## 文章
 | 时间 | 文章 | 作者 |
 |:--:|:--|:--:|
-|2016-09-010|[Mac NW.js 环境安装 和 打包)](https://github.com/zhongxia245/One-Day-One-Tip/issues/13)|zhongxia|
+|2016-09-10|[Mac NW.js 环境安装 和 打包)](https://github.com/zhongxia245/One-Day-One-Tip/issues/13)|zhongxia|
 |2016-09-09|[ACE.js 自定义代码提示](https://github.com/zhongxia245/One-Day-One-Tip/issues/12)|zhongxia|
 |2016-09-07|[CSS动画 (transition animation)](https://github.com/zhongxia245/One-Day-One-Tip/issues/11)|zhongxia|
 |2016-09-06|[浏览器输入URL，发生了什么？【HTTP篇】](https://github.com/zhongxia245/One-Day-One-Tip/issues/9)|zhongxia|
