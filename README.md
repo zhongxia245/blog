@@ -22,11 +22,11 @@ Start Time : 2016-08-30 20:52:23
 ## 作品
 1. 仿hacker文字下落效果 
 
-![](https://github.com/zhongxia245/One-Day-One-Tip/blob/master/demo/hacker%E6%96%87%E5%AD%97%E4%B8%8B%E8%90%BD%E6%95%88%E6%9E%9C/demo.gif?raw=true)
+![](http://ww2.sinaimg.cn/large/801b780agw1f7np1fljzxg20gb0keb29.gif)
 
 2. loading效果
 
-![](https://github.com/zhongxia245/One-Day-One-Tip/blob/master/demo/loading/loading.gif?raw=true)
+![](http://ww1.sinaimg.cn/large/801b780agw1f7noxxpa8fg20gb0kego5.gif)
 
 
 
