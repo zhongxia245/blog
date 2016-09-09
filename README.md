@@ -30,5 +30,19 @@ Start Time : 2016-08-30 20:52:23
 
 ![](http://ww1.sinaimg.cn/large/801b780agw1f7noxxpa8fg20gb0kego5.gif)
 
+## Log
+2016/09/08
+>由于加班到10点多，到宿舍11点多，漏写了一篇，
+本准备写 【CSS命令的发展】，从 没有规则=》原子性样式=》模块化样式=》BEM=》CSS Module 的变化， 
+
+- 没有规则：想怎么写就怎么写
+
+- 原子性：一个功能一个小样式， 页面需要什么样的样式，就使用 这些样式名拼接。 `.w200{width:200px}; .red{color:red;}`  类似这种
+
+- 模块化样式：把一个模块的样式，放在一个父类class下，或者命令类似 `sidebar-nav-li`
+
+- BEM： 一个比较心的Class命名方式，不让class重名， 但是 样式名 很长很长
+
+- CSS Module： 未来的趋势
 
 
