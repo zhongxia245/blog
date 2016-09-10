@@ -5,11 +5,10 @@
 ---
 Start Time : 2016-08-30 20:52:23
 
-<span id="top"></span>
 ## 目录
-- [文章](#article)
-- [ChangeLog](#log)
-- [小案例](#demo)
+- [文章](#user-content-文章)
+- [ChangeLog](#user-content-ChangeLog)
+- [小案例](#user-content-小案例)
 
 
 <span id="article"></span>
@@ -28,7 +27,6 @@ Start Time : 2016-08-30 20:52:23
 |2016-08-31|[构造函数继承的几种实现方式](https://github.com/zhongxia245/One-Day-One-Tipssues/2)|zhongxia|
 |2016-08-30|[闭包](https://github.com/zhongxia245/One-Day-One-Tip/issues/1)|zhongxia|
 
-<span id ="log"></span>
 ## ChangeLog
 ### 2016/09/08
 >由于加班到10点多，到宿舍11点多，漏写了一篇，
@@ -53,7 +51,6 @@ Start Time : 2016-08-30 20:52:23
 > 
 > 出现该情况，可能对各个知识点的见解不够，或者认为文章就一定要在该文中，说明这个知识点，而不是简单的叙述自己的见解，或者学习体会。 
 
-<span id ="demo"></span>
 ## 小案例
 1. 仿hacker文字下落效果 
 
