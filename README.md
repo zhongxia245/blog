@@ -5,6 +5,14 @@
 ---
 Start Time : 2016-08-30 20:52:23
 
+<span id="top"></span>
+## 目录
+- [文章](#article)
+- [ChangeLog](#log)
+- [小案例](#demo)
+
+
+<span id="article"></span>
 ## 文章
 | 时间 | 文章 | 作者 |
 |:--:|:--|:--:|
@@ -20,17 +28,9 @@ Start Time : 2016-08-30 20:52:23
 |2016-08-31|[构造函数继承的几种实现方式](https://github.com/zhongxia245/One-Day-One-Tipssues/2)|zhongxia|
 |2016-08-30|[闭包](https://github.com/zhongxia245/One-Day-One-Tip/issues/1)|zhongxia|
 
-## 作品
-1. 仿hacker文字下落效果 
-
-![](http://ww2.sinaimg.cn/large/801b780agw1f7np1fljzxg20gb0keb29.gif)
-
-2. loading效果
-
-![](http://ww1.sinaimg.cn/large/801b780agw1f7noxxpa8fg20gb0kego5.gif)
-
-## Log
-2016/09/08
+<span id ="log"></span>
+## ChangeLog
+### 2016/09/08
 >由于加班到10点多，到宿舍11点多，漏写了一篇，
 本准备写 【CSS命令的发展】，从 没有规则=》原子性样式=》模块化样式=》BEM=》CSS Module 的变化， 
 
@@ -44,4 +44,27 @@ Start Time : 2016-08-30 20:52:23
 
 - CSS Module： 未来的趋势
 
+### 2016-09-11 06:26:21
+> 感慨下，每天坚持写的话，真TM会坚持不下去，看来不是毅力不够，就是没有找到技巧，或者天天想写笔记，就是扯淡。 
+>  
+> 写文章大概需要一个小时，特别是自己GET的一篇好文或者自己学习下新的知识点的时候。 
+> 
+> 此时笔记其实就是总结，基本写的就是原文的摘要。
+> 
+> 出现该情况，可能对各个知识点的见解不够，或者认为文章就一定要在该文中，说明这个知识点，而不是简单的叙述自己的见解，或者学习体会。 
 
+<span id ="demo"></span>
+## 小案例
+1. 仿hacker文字下落效果 
+
+![](http://ww2.sinaimg.cn/large/801b780agw1f7np1fljzxg20gb0keb29.gif)
+
+2. loading效果
+
+![](http://ww1.sinaimg.cn/large/801b780agw1f7noxxpa8fg20gb0kego5.gif)
+
+
+
+
+
+## [^回到顶部^](#top)
