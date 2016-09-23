@@ -15,6 +15,8 @@ Start Time : 2016-08-30 20:52:23
 ## 文章
 | 时间 | 文章 | 作者 |
 |:--:|:--|:--:|
+|2016-09-23|[Nginx 开启 gzip和缓存)](https://github.com/zhongxia245/One-Day-One-Tip/issues/19)|zhongxia|
+|2016-09-23|[nginx启动，重启，关闭命令)](https://github.com/zhongxia245/One-Day-One-Tip/issues/18)|zhongxia|
 |2016-09-14|[Chrome远程调试Android上的多点触控操作)](https://github.com/zhongxia245/One-Day-One-Tip/issues/15)|zhongxia|
 |2016-09-11|[常用GIT知识点)](https://github.com/zhongxia245/One-Day-One-Tip/issues/14)|zhongxia|
 |2016-09-10|[Mac NW.js 环境安装 和 打包)](https://github.com/zhongxia245/One-Day-One-Tip/issues/13)|zhongxia|
