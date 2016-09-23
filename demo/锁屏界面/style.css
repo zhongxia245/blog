@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #454545;
+}
+
+.nineSvg {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: block;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}

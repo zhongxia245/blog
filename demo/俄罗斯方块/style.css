@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+.centerdiv {
+    border: 0px;
+    margin-left: 200px;
+    width: 400px;
+    height: 540px;
+    background-color: #000000;
+    float: left;
+}
+
+.rightDiv {
+    width: 200px;
+    float: left;
+}
+
+.speedDiv {
+    width: 200px;
+    float: left;
+}
+
+.squareson {
+    float: left;
+    width: 38px;
+    border: 1px solid #000000;
+    height: 38px;
+    background-color: #ffff00;
+}
+
+.squaresoff {
+    float: left;
+    width: 40px;
+    border: 0px;
+    height: 40px;
+    background-color: #000000;
+}

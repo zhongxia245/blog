@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.upLoadBut {
+    width: 800px;
+    height: 100px;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgba(255, 415, 124, 0.5);
+}
+
+.showImg {
+    width: 800px;
+    min-height: 200px;
+    margin: 20px auto;
+    border: 1px dashed #454545;
+}
+
+.showImg img {
+    width: 25%;
+    float: left;
+}
+
+.showImg:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.comein {
+    background-color: cyan;
+}

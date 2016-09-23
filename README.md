@@ -1,9 +1,15 @@
+## 博客地址
+>Blog地址：github上是最新的，blog可能没有会没有及时更新
+
+- [简书](http://www.jianshu.com/users/c664d7ddd11d/latest_articles)
+- [博客园](http://www.cnblogs.com/zhongxia/)
+
+## 前言
 > 每天一个知识点，可能是一个小小的技巧，心得，或者感悟、 也可能是一个一篇优秀文章的转载。
 
 #### **不一定每篇都还自己总结，自己一字一字的敲出来，但是要保证自己有get到知识。**
 
----
-Start Time : 2016-08-30 20:52:23
+## Start Time : 2016-08-30 20:52:23
 
 ## 目录
 - [文章](#user-content-文章)
@@ -64,8 +70,16 @@ Start Time : 2016-08-30 20:52:23
 
 ![](http://ww1.sinaimg.cn/large/801b780agw1f7noxxpa8fg20gb0kego5.gif)
 
+3. HTML5拖拽上传文件（HTML5，拖拽，FileReadder）
 
+![](http://ww1.sinaimg.cn/large/65e4f1e6jw1f83se7khq1g20n40b81kx.gif)
 
+4. 俄罗斯方块游戏（OOP应用）
 
+![](http://ww3.sinaimg.cn/large/65e4f1e6jw1f83shy2cl0g20n40giabf.gif)
+
+5. 锁屏页面
+
+![](http://ww4.sinaimg.cn/large/65e4f1e6jw1f83slrp2tcg20d40d3768.gif)
 
 ## [^回到顶部^](#top)
