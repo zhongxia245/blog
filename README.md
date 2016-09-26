@@ -21,6 +21,8 @@
 ## 文章
 | 时间 | 文章 | 作者 |
 |:--:|:--|:--:|
+|2016-09-23|[Chrome打印PDF](https://github.com/zhongxia245/One-Day-One-Tip/issues/22)|zhongxia|
+|2016-09-23|[【CSS】Sass理解](https://github.com/zhongxia245/One-Day-One-Tip/issues/20)|zhongxia|
 |2016-09-23|[Nginx 开启 gzip和缓存](https://github.com/zhongxia245/One-Day-One-Tip/issues/19)|zhongxia|
 |2016-09-23|[nginx启动，重启，关闭命令](https://github.com/zhongxia245/One-Day-One-Tip/issues/18)|zhongxia|
 |2016-09-14|[Chrome远程调试Android上的多点触控操作](https://github.com/zhongxia245/One-Day-One-Tip/issues/15)|zhongxia|
