@@ -21,6 +21,11 @@
 ## 文章
 | 时间 | 文章 | 作者 |
 |:--:|:--|:--:|
+|2016-09-23|[如何形象地解释 JavaScript 中 map、foreach、reduce 间的区别？](https://github.com/zhongxia245/One-Day-One-Tip/issues/27)|转载|
+|2016-09-23|[Redux入门教程【推荐】](https://github.com/zhongxia245/One-Day-One-Tip/issues/26)|转载|
+|2016-09-23|[【项目总结】大数据操作系统](https://github.com/zhongxia245/One-Day-One-Tip/issues/25)|zhongxia|
+|2016-09-25|[【PHP】微信录音文件转存到自己服务器](https://github.com/zhongxia245/One-Day-One-Tip/issues/24)|zhongxia|
+|2016-09-24|[JS问题规避 JS](https://github.com/zhongxia245/One-Day-One-Tip/issues/23)|zhongxia|
 |2016-09-23|[Chrome打印PDF](https://github.com/zhongxia245/One-Day-One-Tip/issues/22)|zhongxia|
 |2016-09-23|[【CSS】Sass理解](https://github.com/zhongxia245/One-Day-One-Tip/issues/20)|zhongxia|
 |2016-09-23|[Nginx 开启 gzip和缓存](https://github.com/zhongxia245/One-Day-One-Tip/issues/19)|zhongxia|
