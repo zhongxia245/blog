@@ -21,6 +21,9 @@
 ## 文章
 | 时间 | 文章 | 作者 |
 |:--:|:--|:--:|
+|2016-10-08|[【CSS】Table td 不换行 超出省略号](https://github.com/zhongxia245/One-Day-One-Tip/issues/30)|zhongxia|
+|2016-10-08|[【GITHUB】pull request](https://github.com/zhongxia245/One-Day-One-Tip/issues/29)|zhongxia|
+|2016-09-30|[Chrome 跨域 disable-web-security 关闭安全策略](https://github.com/zhongxia245/One-Day-One-Tip/issues/28)|zhongxia|
 |2016-09-29|[如何形象地解释 JavaScript 中 map、foreach、reduce 间的区别？](https://github.com/zhongxia245/One-Day-One-Tip/issues/27)|转载|
 |2016-09-28|[Redux入门教程【推荐】](https://github.com/zhongxia245/One-Day-One-Tip/issues/26)|转载|
 |2016-09-28|[【项目总结】大数据操作系统](https://github.com/zhongxia245/One-Day-One-Tip/issues/25)|zhongxia|
