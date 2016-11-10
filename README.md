@@ -21,6 +21,17 @@
 ## 文章
 | 时间 | 文章 | 作者 |
 |:--:|:--|:--:|
+|2016-11-04|[【SQL】PostgreSql常用命令](https://github.com/zhongxia245/One-Day-One-Tip/issues/49)|zhongxia|
+|2016-11-04|[【CSS】CSS命名方式=》BEM](https://github.com/zhongxia245/One-Day-One-Tip/issues/48)|zhongxia|
+|2016-11-04|[【NPM】npm i git地址 & npm发布](https://github.com/zhongxia245/One-Day-One-Tip/issues/47)|zhongxia|
+|2016-11-03|[【DOCKER】docker@localhost's password:](https://github.com/zhongxia245/One-Day-One-Tip/issues/46)|zhongxia|
+|2016-11-03|[【WEBPACK】webpack 热更新](https://github.com/zhongxia245/One-Day-One-Tip/issues/45)|zhongxia|
+|2016-11-02|[【GIT】新公司代码提交感慨](https://github.com/zhongxia245/One-Day-One-Tip/issues/44)|zhongxia|
+|2016-11-02|[【VUE】Vue脚手架与组件库收藏](https://github.com/zhongxia245/One-Day-One-Tip/issues/43)|zhongxia|
+|2016-11-02|[【REACT】整理一份react的脚手架](https://github.com/zhongxia245/One-Day-One-Tip/issues/42)|zhongxia|
+|2016-11-11|[【兼容性】safari 与 chrome 的小区别大BUG](https://github.com/zhongxia245/One-Day-One-Tip/issues/41)|zhongxia|
+|2016-10-27|[【JS】Zepto 构建的地址](https://github.com/zhongxia245/One-Day-One-Tip/issues/40)|zhongxia|
+|2016-10-26|[【原理】网站静态化方案（一）静态化原理](https://github.com/zhongxia245/One-Day-One-Tip/issues/39)|zhongxia|
 |2016-10-25|[【源码】优秀模板源码](https://github.com/zhongxia245/One-Day-One-Tip/issues/38)|zhongxia|
 |2016-10-22|[【RN】IOS fetch Network request failed](https://github.com/zhongxia245/One-Day-One-Tip/issues/37)|zhongxia|
 |2016-10-20|[NodeJS转发Ajax请求](https://github.com/zhongxia245/One-Day-One-Tip/issues/36)|zhongxia|
