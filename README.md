@@ -9,6 +9,10 @@
 
 #### **不一定每篇都还自己总结，自己一字一字的敲出来，但是要保证自己有get到知识。**
 
+#### 2016-12-02 11:05:34
+>一路过来一直在学习，目前呢，用到移动端的页面，服务端套模板渲染，开始好好学习下移动端方面的，还有服务端模板渲染方面的， 加油！
+
+
 ## Start Time : 2016-08-30 20:52:23
 
 ## 目录
@@ -21,6 +25,11 @@
 ## 文章
 | 时间 | 文章 | 作者 |
 |:--:|:--|:--:|
+|2016-11-04|[【PHP】学习笔记（一）](https://github.com/zhongxia245/One-Day-One-Tip/issues/54)|zhongxia|
+|2016-11-04|[【学习】学习清单](https://github.com/zhongxia245/One-Day-One-Tip/issues/53)|zhongxia|
+|2016-11-04|[【ReactNative】Mac 下 ReactNative 打包 Android apk](https://github.com/zhongxia245/One-Day-One-Tip/issues/52)|zhongxia|
+|2016-11-04|[【React】difference between "super()" or "super(props)" in React using ES6](https://github.com/zhongxia245/One-Day-One-Tip/issues/51)|zhongxia|
+|2016-11-04|[【20161118】再谈 CSS 预处理器 ](https://github.com/zhongxia245/One-Day-One-Tip/issues/50)|zhongxia|
 |2016-11-04|[【SQL】PostgreSql常用命令](https://github.com/zhongxia245/One-Day-One-Tip/issues/49)|zhongxia|
 |2016-11-04|[【CSS】CSS命名方式=》BEM](https://github.com/zhongxia245/One-Day-One-Tip/issues/48)|zhongxia|
 |2016-11-04|[【NPM】npm i git地址 & npm发布](https://github.com/zhongxia245/One-Day-One-Tip/issues/47)|zhongxia|
