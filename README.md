@@ -1,8 +1,7 @@
 ## 博客地址
 >Blog地址：github上是最新的，blog可能没有会没有及时更新
 
-- [简书](http://www.jianshu.com/users/c664d7ddd11d/latest_articles)
-- [博客园](http://www.cnblogs.com/zhongxia/)
+- [Blog](https://www.izhongxia.com/)
 
 ## 前言
 > 每天一个知识点，可能是一个小小的技巧，心得，或者感悟、 也可能是一个一篇优秀文章的转载。
