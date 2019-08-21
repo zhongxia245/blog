@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Spin, Skeleton } from 'antd';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { AppContextProvider } from '../store';
 import reducer from '../store/reducer';
 import { getAllIssue } from '../api';
 
-const BasicLayout: React.FC = props => {
+const BasicLayout: React.FC = ({ location, children }: any) => {
   const [state, setState] = useState({ loading: false, list: [] });
 
   useEffect(() => {
@@ -26,7 +27,11 @@ const BasicLayout: React.FC = props => {
     </Spin>
   ) : (
     <AppContextProvider initValue={state} reducer={reducer}>
-      {props.children}
+      <TransitionGroup>
+        <CSSTransition key={location.pathname} classNames="fade" timeout={300}>
+          {children}
+        </CSSTransition>
+      </TransitionGroup>
     </AppContextProvider>
   );
 };

@@ -37,18 +37,22 @@ const _getClosedIssue = async () => {
 };
 
 export const getAllIssue = async () => {
-  // let cacheList = JSON.parse(localStorage.getItem('blog_all_issues') || '[]');
-  // if (cacheList && cacheList.length > 0) {
-  //   return cacheList;
-  // } else {
   let [openIssues, closedIssues]: any = await Promise.all([_getOpenIssue(), _getClosedIssue()]);
   let allIssues = [...openIssues, ...closedIssues];
   localStorage.setItem('blog_all_issues', JSON.stringify(allIssues));
   return allIssues;
-  // }
 };
 
 export const getTags = async () => {
-  let tags = await axios.get(`https://api.github.com/repos/zhongxia245/blog/labels`);
+  let tags = await axios.get(`https://api.github.com/repos/${CONFIG.owner}/blog/labels`);
   return tags;
+};
+
+export const getComments = async (id: string | number) => {
+  let data = await axios.get(
+    `https://api.github.com/repos/${
+      CONFIG.owner
+    }/blog/issues/${id}/comments?access_token=${CONFIG.token.join('')}`,
+  );
+  return data;
 };

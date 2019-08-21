@@ -11,7 +11,10 @@ export default () => {
 
   const onSearch = (val: string) => {
     let newList = state.list.filter((item: any) => {
-      return item.title.indexOf(val) !== -1 || String(item.number).indexOf(val) !== -1;
+      return (
+        item.title.toLocaleLowerCase().indexOf(val) !== -1 ||
+        String(item.number).indexOf(val) !== -1
+      );
     });
     setData({ ...data, list: newList });
   };
@@ -21,7 +24,7 @@ export default () => {
       <BackTop />
       <Input.Search
         size="large"
-        placeholder="根据文章标题、或者文章ID 搜索"
+        placeholder="根据文章标题、或者文章ID 回车进行搜索"
         onSearch={onSearch}
         enterButton="搜索"
       />

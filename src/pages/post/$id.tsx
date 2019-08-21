@@ -1,35 +1,84 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { withRouter } from 'umi';
-import { Divider, Tag, BackTop, Icon } from 'antd';
+import { Tag, BackTop, Icon, Card, Avatar, Tooltip } from 'antd';
 import marked from 'marked';
 import dayjs from 'dayjs';
 import find from 'lodash/find';
 import { useAppState } from '@/store';
+import { getComments } from '@/api';
 import styles from './post.less';
 
-export default withRouter(({ match }) => {
+let prevLocation: any = null;
+
+export default withRouter(({ match, location }) => {
   const { params } = match;
   const [state]: any = useAppState();
+  const [comments, setComments]: any = useState([]);
+
+  useEffect(() => {
+    // 切换文章滚动到顶部
+    if (location !== prevLocation) {
+      window.scrollTo(0, 0);
+      prevLocation = location;
+    }
+
+    const getData = async () => {
+      let data = await getComments(params.id);
+      setComments(data);
+    };
+
+    getData();
+  }, [params.id]);
+
   let data = find(state.list, { number: Number(params.id) });
 
   let editUrl: any = data.url.replace('api.github', 'github').replace('repos/', '');
+
+  const jsx = {
+    renderArticle: (info: any, key?: string | number) => {
+      return (
+        <Card
+          size="small"
+          type="inner"
+          className={styles.card}
+          key={key}
+          title={jsx.renderCardTitle(info.user)}
+          extra={jsx.renderCardExtra(info)}
+        >
+          <div className="markdown-body" dangerouslySetInnerHTML={{ __html: marked(info.body) }} />
+        </Card>
+      );
+    },
+    renderCardTitle: (user: any) => {
+      return (
+        <>
+          <Avatar src={user.avatar_url} style={{ marginRight: 5 }} />
+          <span>{user.login}</span>
+        </>
+      );
+    },
+    renderCardExtra: (info: any) => {
+      return (
+        <>
+          <span>{dayjs(info.updated_at).format('YYYY-MM-DD hh:mm:ss')}</span>
+          <Tooltip title="点击编辑">
+            <a href={editUrl} target="_blank">
+              <Icon style={{ marginLeft: 10 }} type="edit" />
+            </a>
+          </Tooltip>
+        </>
+      );
+    },
+  };
 
   return (
     <div className={styles.post}>
       <BackTop />
       <h1>{data.title}</h1>
-      <div>
-        <Tag color="blue">作者：{data.user.login}</Tag>
-        <Tag color="green">最后更新时间：{dayjs(data.updated_at).format('YYYY-MM-DD hh:mm')}</Tag>
-        <Tag color="#108ee9" style={{ cursor: 'pointer' }}>
-          <a href={editUrl} target="_blank">
-            编辑
-            <Icon style={{ marginLeft: 5 }} type="edit" />
-          </a>
-        </Tag>
-      </div>
-      <Divider />
-      <div className="markdown-body" dangerouslySetInnerHTML={{ __html: marked(data.body) }} />
+
+      {jsx.renderArticle(data)}
+
+      {comments.map((item: any, i: number) => jsx.renderArticle(item, i))}
     </div>
   );
 });
