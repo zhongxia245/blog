@@ -3,6 +3,7 @@
 >Blog地址：github上是最新的，blog可能没有会没有及时更新
 
 - [Blog](https://www.izhongxia.com/)
+- [『Issue归档』](http://zhongxia245.github.io/blog/)
 
 ## 前言
 
