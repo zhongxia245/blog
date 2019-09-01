@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Link from 'umi/link';
 import { Tag, Typography, Empty, Input, Divider, BackTop } from 'antd';
 import dayjs from 'dayjs';
+import { debounce } from 'lodash';
 import styles from './index.less';
 import { useAppState } from '@/store';
 
@@ -19,16 +20,24 @@ export default () => {
     setData({ ...data, list: newList });
   };
 
+  // 使用函数防抖进行过滤
+  const debounceSearch = debounce(onSearch, 300);
+  const onChange = (e: any) => {
+    e.persist();
+    let val = e.target.value;
+    debounceSearch(val);
+  };
+
   return (
     <div>
       <BackTop />
       <Input.Search
         size="large"
         placeholder="根据文章标题、或者文章ID 回车进行搜索"
+        onChange={onChange}
         onSearch={onSearch}
         enterButton="搜索"
       />
-      <Divider />
       {data.list && data.list.length > 0 ? (
         data.list.map((item: any, i: number) => {
           return (
