@@ -8,10 +8,10 @@ import { useAppState } from '@/store';
 
 export default () => {
   const [state]: any = useAppState();
-  const [data, setData] = useState({ searchVal: '', list: state.blogList });
+  const [data, setData] = useState({ searchVal: '', list: state.faqList });
 
   const onSearch = (val: string) => {
-    let newList = state.blogList.filter((item: any) => {
+    let newList = state.faqList.filter((item: any) => {
       return (
         item.title.toLocaleLowerCase().indexOf(val) !== -1 ||
         String(item.number).indexOf(val) !== -1

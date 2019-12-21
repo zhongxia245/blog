@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { withRouter } from 'umi';
-import { Tag, BackTop, Icon, Card, Avatar, Tooltip } from 'antd';
+import { BackTop, Icon, Card, Avatar, Tooltip } from 'antd';
 import marked from 'marked';
 import dayjs from 'dayjs';
 import find from 'lodash/find';
@@ -14,6 +14,7 @@ export default withRouter(({ match, location }) => {
   const { params } = match;
   const [state]: any = useAppState();
   const [comments, setComments]: any = useState([]);
+  const list = params.post === 'blog' ? state.blogList : state.faqList;
 
   useEffect(() => {
     // 切换文章滚动到顶部
@@ -23,14 +24,14 @@ export default withRouter(({ match, location }) => {
     }
 
     const getData = async () => {
-      let data = await getComments(params.id);
+      let data = await getComments(params.post, params.id);
       setComments(data);
     };
 
     getData();
   }, [params.id]);
 
-  let data = find(state.list, { number: Number(params.id) });
+  let data = find(list, { number: Number(params.id) });
 
   let editUrl: any = data.url.replace('api.github', 'github').replace('repos/', '');
 
